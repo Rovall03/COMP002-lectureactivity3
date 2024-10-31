@@ -15,3 +15,27 @@ if ( diameter > 0) {
     console.log ("circumference = " + circumference);
 }
 
+//#3
+function Hello() {
+    console.log("Hello?");
+
+}
+function Youthere(){
+    console.log("You There?");
+    Hello();
+}
+Hello();
+Youthere();
+//#4
+// the 'name' was filled in creating a sentence .
+// 
+
+//#5
+const 1 =() => {
+    return 2 ();
+
+};
+const 2 =() => {
+    return 1 ();
+};
+console.log ( 1 ());
