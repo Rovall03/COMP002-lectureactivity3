@@ -1,3 +1,4 @@
+//#1 greeting
 function greeting(name){
     console.log("Hey, " + name);
 }
@@ -11,5 +12,6 @@ let diameter = 15;
 if ( diameter > 0) {
     let pi = 3.14;
     let circumference = pi * diameter;
-    console.log ("circumference= " + circumference);
+    console.log ("circumference = " + circumference);
 }
+
